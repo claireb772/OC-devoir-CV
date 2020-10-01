@@ -62,6 +62,13 @@ img
 	font-style: bold;
 }
 
+#hautdepage p
+{
+	text-align: center;
+	font-size: 1em;
+	font-style: bold;
+}
+
 #liseret
 {   
     width: 6%;
@@ -81,15 +88,77 @@ img
 #formation
 {
 	width: 30%;
+	padding-right: 10px;
 
 }
 
 #experience
 {
 	width: 50%;
+	padding-right: 10px;
 }
 
 #competence
 {
 	width: 20%;
+}
+
+/* RESPONSIVE DESIGN*/
+
+@media all and (max-width: 1024px)
+{
+
+	#page1
+	{
+		width: auto;
+	}
+
+	#liseret
+	{
+		display: none;
+	}
+
+	#hautdepage img
+	{
+	float: left;
+	margin-right: 10px;
+	}
+	
+	
+	#hautdepage h1
+	{
+		font-size: 0.8em;
+		text-align: left;
+	}
+
+	#hautdepage p
+	{
+		font-size: 0.8em;
+		text-align: left;
+	}
+
+	#bigsection
+	{
+		flex-direction: column;
+	}
+
+	#formation
+	{
+		width: auto;
+
+
+	}
+
+	#experience
+	{
+		width: auto;
+
+	}
+
+	#competence
+	{
+		width: auto;
+
+	}
+
 }
